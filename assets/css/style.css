@@ -1,0 +1,19 @@
+*::before,
+*::after {
+    margin: 0;
+}
+
+
+
+.img-foto {
+    background-color: rgb(149, 208, 213);
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+section {
+    padding-left: 10px;
+    padding-right: 10px;
+}
