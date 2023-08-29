@@ -2,8 +2,15 @@
 *::after {
     margin: 0;
 }
+@media (max-whidth:800px){
+    header{
+        flex-direction: column;
+    }
+}
 
-
+.foto{
+    border-radius: 5px;
+}
 
 .img-foto {
     background-color: rgb(149, 208, 213);
@@ -12,8 +19,38 @@
     padding-top: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 section {
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 20px;
+    
+}
+
+h2 {
+    background-color: rgb(149, 208, 213);
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+p {
+    background-color: rgb(149, 208, 213);
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+.titulo {
+    border: 1px;
+    border-radius: 5px;
+
 }
